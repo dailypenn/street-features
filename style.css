@@ -1,0 +1,80 @@
+/* CSS files add styling rules to your content */
+
+h1 {
+  font-size: 7.3rem;
+}
+
+h2 {
+  font-size: 5.5rem;
+}
+
+h3 {
+  font-size: 3.6rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 1.8rem;
+}
+
+.text-dgreen {
+  color: #2B3C2E;
+}
+
+.start-letter {
+  height: 0;
+  margin-top: -4rem;
+  margin-bottom: 3.9rem;
+}
+
+
+#coverBg {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#coverTitle {
+  padding: 0 12.3rem 0 7.5rem;
+  font-family: 'BN Chester';
+}
+
+#coverText {
+  padding: 13rem 0 9.5rem 0;
+  width: 38%;
+  margin: auto;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#yusefBg {
+  background-color: #DFDDD0;
+  padding: 5rem 3.9rem 8.3rem 6.9rem;
+}
+
+#yusefImgCol {
+  padding-left: 2.5rem;
+}
+
+#jimAckBgImg {
+  background-size: cover;
+  background-image: url("static/Kligman_in_1976_Temple University_Libraries.jpg");
+}
+
+#jimAckBgShade {
+  background-color: rgba(0, 0, 0, .66);
+}
+
+#jimAckTitle {
+  padding: 12.5rem 11.8rem 0;
+}
+
+#jimAckText {
+  padding: 3.4rem 11.8rem 5.3rem;
+}
+
+#albertBg {
+  background-color: #DFDDD0;
+  padding-right: 2.4rem 4.6rem 0 0;
+}
