@@ -9,7 +9,7 @@ h2 {
 }
 
 h3 {
-  font-size: 3.6rem;
+  font-size: 3.3rem;
 }
 
 h4 {
@@ -77,4 +77,42 @@ h5 {
 #albertBg {
   background-color: #DFDDD0;
   padding-right: 2.4rem 4.6rem 0 0;
+}
+
+#bushBg {
+  background-color: #DFDDD0;
+  padding: 5rem 3.9rem 8.3rem 0rem;
+  margin-top: -1rem; /*This is meant to remove the white space between this div and the div above. It's a little hacky. Is there a better way?*/
+}
+
+#bushCaption{
+  font-size: 0.6rem; 
+  margin-left: 10rem;
+  margin-top: 1rem;
+}
+
+#blackBg{
+  background-color: black;
+  padding-right: 0;
+  padding-bottom: 5rem;
+  padding-top: 15rem;
+}
+
+#chemicalImg{
+  width: 85%; 
+  float: right;
+  margin-bottom: 5rem;
+}
+
+#holmesburgText{
+  text-align: center; 
+  font-family: 'BN Chester';
+  margin: auto;
+  width: 95%;
+  white-space: pre-wrap; 
+}
+
+#experimentImg{
+  width: 70%;
+  margin-top: 5rem;
 }
