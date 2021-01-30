@@ -30,6 +30,11 @@ h5 {
   margin-bottom: 3.9rem;
 }
 
+.minus-half-col {
+  margin-right: -4.2%;
+  padding-right: 5.5%;
+}
+
 
 #coverBg {
   background-color: rgba(0, 0, 0, 0.5);
