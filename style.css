@@ -70,7 +70,15 @@ p {
 }
 
 #coverBg {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-image: url("static/cover.png");
+}
+
+#watermark {
+  opacity: 75%;
+  width: 20%;
+  padding: 2rem 0 15.5rem;
+  margin: auto;
 }
 
 #coverTitle {
@@ -109,7 +117,7 @@ p {
 }
 
 #blackBg{
-  background-color: black;
+  background-color: #000000;
   padding-right: 0;
   padding-bottom: 5rem;
   padding-top: 15rem;
@@ -137,6 +145,19 @@ p {
 
 #albertGreenBg {
   background-color: #2B3C2E;
+}
+
+#albertGreenImg {
+  background-size: cover;
+  background-image: url("static/Solomon_A_McBride_1966_Temple_Univ.jpg");
+}
+
+#albertGreenCaption {
+  font-size: .6rem;
+  padding: 90% .5rem 1rem 30%;
+  margin-bottom: 0;
+  text-align: right;
+  color: #FFFFFF;
 }
 
 #greenQuoteBox {
