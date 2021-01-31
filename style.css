@@ -1,6 +1,5 @@
 /* CSS files add styling rules to your content */
 
-
 h1 {
   font-size: 7.3rem;
 }
@@ -22,7 +21,6 @@ h5 {
 }
 
 p {
-  line-height: 1.3rem;
 }
 
 .tan-bg-img-right {
@@ -59,10 +57,15 @@ p {
   }
 }
 
-.green-quote {
+@media (max-width: 768px) {
+  .small-screen-pad {
+    padding-left: 3rem;
+  }
+}
+
+.quote-author {
   font-family: 'BN Chester';
   font-size: 2.3rem;
-  color: white;
   line-height: 2.6rem;
 }
 
@@ -94,13 +97,15 @@ p {
 
 #bushBg {
   background-color: #DFDDD0;
-  padding: 5rem 3.9rem 0rem 0rem;
-  margin-top: -1rem; /*This is meant to remove the white space between this div and the div above. It's a little hacky. Is there a better way?*/
+  padding-top: 2.2rem;
+  padding-right: 3.9rem;
 }
 
 #bushCaption{
+  padding-top: 1rem;
   font-size: 0.6rem; 
   margin-left: 10rem;
+  line-height: 0.8rem;
 }
 
 #blackBg{
@@ -146,12 +151,5 @@ p {
 #hornblum{
   background-color: #DFDDD0;
   padding-bottom: 5rem;
-}
-
-.hornblumText {
-  font-family: 'BN Chester';
-  color: #2B3C2E;
-  width: 90%;
-  text-align: center;
 }
 
