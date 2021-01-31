@@ -20,6 +20,11 @@ h5 {
   font-size: 1.8rem;
 }
 
+.tan-bg-img-right {
+  background-color: #DFDDD0;
+  padding: 5rem 3.9rem 8.3rem 6.9rem;
+}
+
 .text-dgreen {
   color: #2B3C2E;
 }
@@ -30,6 +35,18 @@ h5 {
   margin-bottom: 3.9rem;
 }
 
+.black-bg-shade {
+  background-color: rgba(0, 0, 0, .66);
+}
+
+.shade-bg-title {
+  padding: 12.5rem 11.8rem 0;
+}
+
+.shade-bg-text {
+  padding: 3.4rem 11.8rem 5.3rem;
+}
+
 @media (min-width: 768px) {
   .minus-half-col {
     margin-right: -4.2%;
@@ -37,7 +54,7 @@ h5 {
   }
 }
 
-.greenQuote {
+.green-quote {
   font-family: 'BN Chester';
   font-size: 2.3rem;
   color: white;
@@ -61,11 +78,6 @@ h5 {
   color: #FFFFFF;
 }
 
-#yusefBg {
-  background-color: #DFDDD0;
-  padding: 5rem 3.9rem 8.3rem 6.9rem;
-}
-
 #yusefImgCol {
   padding-left: 2.5rem;
 }
@@ -73,18 +85,6 @@ h5 {
 #jimAckBgImg {
   background-size: cover;
   background-image: url("static/Kligman_in_1976_Temple University_Libraries.jpg");
-}
-
-#jimAckBgShade {
-  background-color: rgba(0, 0, 0, .66);
-}
-
-#jimAckTitle {
-  padding: 12.5rem 11.8rem 0;
-}
-
-#jimAckText {
-  padding: 3.4rem 11.8rem 5.3rem;
 }
 
 #bushBg {
@@ -131,4 +131,9 @@ h5 {
 
 #greenQuoteBox {
   padding: 0 3.8rem 0 3.1rem;
+}
+
+#julesBgImg {
+  background-size: cover;
+  background-image: url("static/inmates.png");
 }
