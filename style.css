@@ -30,11 +30,19 @@ h5 {
   margin-bottom: 3.9rem;
 }
 
-.minus-half-col {
-  margin-right: -4.2%;
-  padding-right: 5.5%;
+@media (min-width: 768px) {
+  .minus-half-col {
+    margin-right: -4.2%;
+    padding-right: 5.5%;
+  }
 }
 
+.greenQuote {
+  font-family: 'BN Chester';
+  font-size: 2.3rem;
+  color: white;
+  line-height: 2.6rem;
+}
 
 #coverBg {
   background-color: rgba(0, 0, 0, 0.5);
@@ -79,11 +87,6 @@ h5 {
   padding: 3.4rem 11.8rem 5.3rem;
 }
 
-#albertBg {
-  background-color: #DFDDD0;
-  padding-right: 2.4rem 4.6rem 0 0;
-}
-
 #bushBg {
   background-color: #DFDDD0;
   padding: 5rem 3.9rem 8.3rem 0rem;
@@ -120,4 +123,12 @@ h5 {
 #experimentImg{
   width: 70%;
   margin-top: 5rem;
+}
+
+#albertGreenBg {
+  background-color: #2B3C2E;
+}
+
+#greenQuoteBox {
+  padding: 0 3.8rem 0 3.1rem;
 }
