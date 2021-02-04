@@ -33,7 +33,7 @@ p {
 
 .tan-bg-img-right {
   background-color: #DFDDD0;
-  padding: 5rem 3.9rem 8.3rem 5.9rem;
+  padding: 5rem 3.9rem 5rem 5.9rem;
 }
 
 .text-dgreen {
@@ -59,15 +59,18 @@ p {
   padding: 3.4rem 11.8rem 5.3rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .big-screen-bg-img-right { 
-    padding: 5rem 3.9rem 8.3rem 5.9rem;
+    padding: 0rem 3.9rem 2rem 5.9rem;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .small-screen-pad {
-    padding: 0 3rem;
+    padding: 3rem 3rem;
+  }
+  .small-screen-top-pad {
+    padding-top: 3rem;
   }
 }
 
@@ -119,7 +122,6 @@ p {
 #bushBg {
   background-color: #DFDDD0;
   padding-top: 2.2rem;
-  padding-right: 3rem;
 }
 
 #bushCaption{
@@ -174,7 +176,7 @@ p {
 }
 
 #greenQuoteBox {
-  padding: 0 3.8rem 0 3.1rem;
+  padding: 3rem 3.8rem 3rem 3.1rem;
 }
 
 #julesBgImg {
